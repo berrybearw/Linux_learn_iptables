@@ -36,7 +36,9 @@
 設定 : 
 ---
 
-開啟 22 port : iptables -A INPUT -i ens192 -p tcp -s 10.40.53.191 --dport 22 -j ACCEPT
+開啟 22 port : 
+
+`iptables -A INPUT -i ens192 -p tcp -s 10.40.53.191 --dport 22 -j ACCEPT`
 
 開通
 
