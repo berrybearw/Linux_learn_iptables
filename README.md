@@ -18,7 +18,14 @@
 * [What can be the reasons of connection refused errors?](https://stackoverflow.com/questions/2333400/what-can-be-the-reasons-of-connection-refused-errors)
     
 * [https://www.quora.com/How-do-you-open-port-80-on-Linux](https://www.quora.com/How-do-you-open-port-80-on-Linux)
-    
+
+```
+iptables
+可以設定主機 ip 白名單與黑名單
+限制來源提升安全性
+port 也可以做設定
+```
+
 查看 : iptables -L
 ---
 
